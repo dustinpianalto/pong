@@ -6,9 +6,9 @@ import (
 )
 
 var (
-	winWidth = 800
+	winWidth  = 800
 	winHeight = 600
-	state = start
+	state     = start
 )
 
 func main() {
@@ -80,5 +80,3 @@ func main() {
 	gameLoop(pixels, player1, player2, ball, renderer, tex, keyState)
 
 }
-
-
